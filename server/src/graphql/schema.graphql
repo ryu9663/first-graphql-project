@@ -1,0 +1,11 @@
+type Players {
+  id: Int!
+  nationality: String!
+  position: String!
+  name: String!
+  image: String!
+}
+
+type Query {
+  players: [Players]!
+}
